@@ -14,3 +14,5 @@ user.update({'Hobbies': 'Soccer'})
 print(user)
 
 print(user.popitem())
+
+print(len(user))
