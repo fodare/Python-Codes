@@ -73,7 +73,7 @@ operation_list = {
 
 
 def calculator():
-    input1 = int(input("Enter first number: "))
+    input1 = float(input("Enter first number: "))
     for symbol in operation_list:
         print(symbol)
 
@@ -81,7 +81,7 @@ def calculator():
 
     while should_continue:
         select_symbol = input("Type in the operation from the symbol above: ")
-        input2 = int(input("Enter next number: "))
+        input2 = float(input("Enter next number: "))
 
         calc_function = operation_list[select_symbol]
         answer = calc_function(input1, input2)
