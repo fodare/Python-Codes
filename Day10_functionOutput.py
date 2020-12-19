@@ -64,11 +64,16 @@ def divide(num1, num2):
     return num1 / num2
 
 
+def modulus(num1, num2):
+    return num1 % num2
+
+
 operation_list = {
     "+": add,
     "-": subtract,
     "/": divide,
-    "*": multiply
+    "*": multiply,
+    "%": modulus
 }
 
 
