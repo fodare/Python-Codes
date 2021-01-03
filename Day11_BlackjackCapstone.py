@@ -10,8 +10,7 @@ If the sum of the played card(s) equals 21 then player losses
 # 3: The Ace can either count as 1 or 11
 # 4: Whenever players score = the program score then the game is a draw
 # 5: If the adittion of the computer score is below 17 then the program needs to add another card
-from art import logo
-from replit import clear
+
 import random
 logo = """
 .------.            _     _            _    _            _    
