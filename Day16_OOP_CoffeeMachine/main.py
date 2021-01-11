@@ -5,6 +5,7 @@ from money_machine import MoneyMachine
 # OOP Coffee machine
 # Digital coffee machine start
 
+# Class Creation
 money_machine = MoneyMachine()
 coffee_maker = CoffeeMaker()
 menu = Menu()
