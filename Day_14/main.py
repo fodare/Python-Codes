@@ -8,6 +8,7 @@ score = 0
 game_on = True
 account_b = random.choice(data)
 
+
 def format_data(account):
     """Format the account data into printable form."""
     account_name = account["name"]
@@ -27,7 +28,7 @@ def check_answer(guess, a_followers, b_followers):
 # Todo: Make the game loop until the user losses
 while game_on:
     # Todo: Generate a random account from the game data.
-        # Make the account at position B be position As
+    # Make the account at position B be position As
     account_a = account_b
     account_b = random.choice(data)
     while account_a == account_b:
@@ -52,4 +53,3 @@ while game_on:
     else:
         game_on = False
         print(f"You are wrong. Your Score is: {score}")
-
